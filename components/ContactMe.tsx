@@ -19,15 +19,10 @@ function ContactMe({}: Props) {
 	};
 
 	return (
-		<div className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center space-y-8 md:space-y-0">
-			<h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
-				Contact Me
-			</h3>
-			<div className="flex flex-col space-y-10">
-				<h4 className="text-4xl font-semibold text-center">
-					I Have Got Just What You Need.{" "}
-					<span className="decoration-white underline">Lets Talk</span>
-				</h4>
+		<div className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-5 md:px-10 justify-evenly mx-auto items-center space-y-8 md:space-y-0">
+			<h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Contact Me</h3>
+			<div className="flex flex-col space-y-10 w-full md:w-auto">
+				
 				<div className="space-y-4">
 					<div className="flex items-center space-x-5">
 						<PhoneIcon className="text-white h-7 w-7 animate-pulse" />
@@ -72,17 +67,16 @@ function ContactMe({}: Props) {
 							onChange={(e) => setEmail(e.target.value)}
 						/>
 						<textarea
-							className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
+							className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
 							placeholder="Message"
-							rows={4}
 							value={message}
 							onChange={(e) => setMessage(e.target.value)}
-						/>
+						></textarea>
 						<button
+							className="py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300"
 							type="submit"
-							className="p-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
 						>
-							Send Message
+							Submit
 						</button>
 					</form>
 				</div>
