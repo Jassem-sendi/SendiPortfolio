@@ -44,7 +44,7 @@ function ContactMe({}: Props) {
 						<HomeIcon className="text-white h-7 w-7 animate-pulse" />
 						<p className="text-lg">Sened Gafsa 2190</p>
 					</div>
-					<form className="flex flex-col space-y-4" onSubmit={handleSubmit}>
+					<form className="flex flex-col space-y-4 text-black" onSubmit={handleSubmit}>
 						<input
 							className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
 							type="text"
