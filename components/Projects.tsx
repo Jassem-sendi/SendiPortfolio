@@ -12,21 +12,13 @@ type Project = {
 const projects: Project[] = [
 	{
 		logoUrl:
-			"https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/201731cd-77d0-4e01-84ad-6297255ddfbb/TN-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_85e5f9dd-e9d2-4f03-a97f-1f47f61fd149_small.jpg",
-		name: "A Movie Recommendations Next.js App with Vector Embeddings",
+			"https://i.pinimg.com/564x/87/9b/17/879b1757a4d6755390ee5cc2be93f5b4.jpg",
+		name: "A Memory Game ",
 		index: 1,
 		description:
-			"The Movie Recommendations Next.js App with Vector Embeddings is a web application designed to provide personalized movie recommendations using advanced machine learning techniques. Leveraging vector embeddings, a sophisticated method in natural language processing and recommendation systems.",
+			"Mastermind is a classic code-breaking game where players guess a hidden sequence of numbers within limited attempts, using color-coded feedback for hints. Built with Next.js and React, it features dynamic input generation, interactive feedback, and a responsive design for both desktop and mobile devices. The game includes a hint system and uses CSS Modules for scoped styling.",
 	},
-	{
-		logoUrl:
-			"https://i.pinimg.com/564x/d2/ab/e3/d2abe34678e65300c2a3c15169368ee8.jpg",
-		name: "Generative AI App with Next.js 14",
-		index: 2,
-		description:
-			"The Generative AI App with Next.js 14 is an innovative web application that harnesses the power of artificial intelligence to generate creative content in real-time. Built on Next.js 14, this app integrates cutting-edge technologies including OpenAI's GPT (Generative Pre-trained Transformer) models",
-	},
-	// Add more projects as needed
+	
 ];
 
 const Projects: React.FC = () => {
