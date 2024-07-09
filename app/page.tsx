@@ -25,19 +25,18 @@ export default function Home() {
 			</section>
 
 			{/* Experience */}
-{/* 			<section id="Experience" className="snap-center">
+			<section id="Experience" className="snap-center">
 				<Experience />
-			</section> */}
+			</section>
 
 			{/* Skills */}
 			<section id="Skills" className="snap-start">
 				<Skills />
 			</section>
 
-			{/* Projects */}
-{/* 			<section id="Projects" className="snap-start">
+{/* 			Projects */} */}		<section id="Projects" className="snap-start">
 				<Projects />
-			</section> */}
+			</section>
 
 			{/* Contact */}
 			<section id="Contact" className="snap-start">
